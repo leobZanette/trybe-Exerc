@@ -4,3 +4,4 @@ O ue vou aprender na trybe
 -HTML
 -CSS
 Autoconhecimento
+Liderança
