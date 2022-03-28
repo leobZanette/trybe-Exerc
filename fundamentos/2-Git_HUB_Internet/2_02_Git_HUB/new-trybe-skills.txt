@@ -3,4 +3,5 @@ O ue vou aprender na trybe
 -Unix -Bash -Git
 -HTML
 -CSS
+Autoconhecimento
 Liderança
