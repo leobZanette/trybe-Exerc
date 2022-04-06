@@ -15,3 +15,4 @@ switch (trafficLight) {
     default:
         console.log("Não identificado");
 }
+
