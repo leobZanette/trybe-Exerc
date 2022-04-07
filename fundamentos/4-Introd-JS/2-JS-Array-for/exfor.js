@@ -9,3 +9,4 @@ let names = ['joao','maria','antonio','margarida'];
 for ( let nome of names) {
     console.log(nome);
 }
+

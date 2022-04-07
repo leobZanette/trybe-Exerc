@@ -6,3 +6,9 @@ menu.push('contato');
 console.log(menuServico);
 console.log(indexPortifolio);
 console.log(menu);
+
+
+// .unshift incluir no inicio
+// .indexOf busca a posição do iten dado
+// .pop deleta o ultimo iten do array
+// .shift deleta o primeiro iten do array
