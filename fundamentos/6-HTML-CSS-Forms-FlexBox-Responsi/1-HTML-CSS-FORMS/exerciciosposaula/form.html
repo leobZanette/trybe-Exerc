@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Header da página</h1>
+    </header>
+    <form>
+        <fieldset>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" maxlength="40" minlength="10" required />
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" maxlength="50" minlength="10" required />
+            </div>
+
+            <div>
+                <input type="radio" value="cidade" name="opcao" id="opcao1" required /> <label
+                    for="opcao1">Cidade</label>
+                <input type="radio" value="campo" name="opcao" id="opcao2" required /> <label for="opcao2">Campo</label>
+                <input type="radio" value="praia" name="opcao" id="opcao3" required /> <label for="opcao3">Praia</label>
+                <input type="radio" value="mont" name="opcao" id="opcao4" required /> <label
+                    for="opcao4">Montnha</label>
+            </div>
+
+            <div>
+                <label for="why">pq voce deveria ser a vencedora:</label>
+                <br>
+                <textarea name="why" id="why" cols="30" rows="10" maxlength="500" placeholder="digite aqui"></textarea>
+            </div>
+
+            <div>
+                <label for="data">Qual a melhor data para realizar sua viagem?:</label>
+                <input type="date" name="data" id="data" />
+            </div>
+
+            <div>
+                <label for="check1">Gostaria de Receber outras incriveis oportunidades de viajar pela Trybe</label>
+                <input type="checkbox" name="concordo" id="check1">
+
+                <br>
+
+                <label for="check2">Concordo 2que imagens das minhas ferias poderao ser usadas em propagandas</label>
+                <input type="checkbox" name="concordo" id="check2" required>
+            </div>
+
+        </fieldset>
+
+        <button type="submit" id="enviar" disabled>Enviar</button>
+        <button id="apagar">Apagar</button>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
